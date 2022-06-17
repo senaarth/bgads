@@ -4,4 +4,5 @@ export const theme = {
   textHighlight: "#fff",
   textPrimary: "#8c8c8c",
   textSecondary: "#797979",
+  textLight: "#ababab",
 };

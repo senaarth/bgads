@@ -9,10 +9,13 @@ export default createGlobalStyle`
     font-family: "Poppins", sans-serif;
   }
 
-  html, body {
+  html, body, #__next {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: ${({ theme }) => theme.bg}
+    background: ${({ theme }) => theme.bg};
+    width: 100%;
+    flex: 1;
+    min-height: 100%;
   }
 `;

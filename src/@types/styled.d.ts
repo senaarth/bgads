@@ -7,5 +7,6 @@ declare module "styled-components" {
     textHighlight: string;
     textPrimary: string;
     textSecondary: string;
+    textLight: string;
   }
 }
