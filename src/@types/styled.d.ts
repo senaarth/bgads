@@ -2,6 +2,10 @@ import "styled-components";
 
 declare module "styled-components" {
   export interface DefaultTheme {
-    // insert theme props in here
+    bg: string;
+    bgLight: string;
+    textHighlight: string;
+    textPrimary: string;
+    textSecondary: string;
   }
 }
